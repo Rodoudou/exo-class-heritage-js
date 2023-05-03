@@ -66,11 +66,11 @@ class Guerrier extends Personnage {
 let gandalf = new Magicien("Gandalf");
 let thor = new Guerrier("Thor");
 
-console.log(thor.informations);
-console.log(gandalf.informations);
+thor.informations;
+gandalf.informations;
 
 gandalf.attaquer(thor);
-console.log(thor.informations);
+thor.informations;
 thor.attaquer(gandalf);
-console.log(gandalf.informations);
+gandalf.informations;
 gandalf.coupSpecial(thor);
