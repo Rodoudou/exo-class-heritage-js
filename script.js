@@ -63,14 +63,14 @@ class Guerrier extends Personnage {
   }
 }
 
-let gandalf = new Magicien("Gandalf");
-let thor = new Guerrier("Thor");
+let lyna = new Magicien("Lyna");
+let aurele = new Guerrier("Aurele");
 
-thor.informations;
-gandalf.informations;
+aurele.informations;
+lyna.informations;
 
-gandalf.attaquer(thor);
-thor.informations;
-thor.attaquer(gandalf);
-gandalf.informations;
-gandalf.coupSpecial(thor);
+lyna.attaquer(aurele);
+aurele.informations;
+aurele.attaquer(lyna);
+lyna.informations;
+lyna.coupSpecial(aurele);
